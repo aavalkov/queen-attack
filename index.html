@@ -10,29 +10,30 @@
   <body>
     <div class="container">
       <h1>Queen Attack</h1>
+      <p> Enter in the coordinates of an inital position and end position on and chess board. Click attack to find out if the queen will be able to attack from the given coordindates.</p> 
 
       <form id="queenattack">
         <div class="form-group">
-          <label for="initalpositionx">Enter the X coordinate for the inital position</label>
+          <label for="initialpositionx">Enter the X coordinate for the initial position:</label>
           <input id="initialpositionx" type="text">
         </div>
         <div class="form-group">
-          <label for="initalpositiony">Enter the Y coordinate for the inital position</label>
+          <label for="initialpositiony">Enter the Y coordinate for the initial position:</label>
           <input id="initialpositiony" type="text">
         </div>
         <div class="form-group">
-          <label for="endpositionx">Enter the X coordinate for the end position</label>
+          <label for="endpositionx">Enter the X coordinate for the end position:</label>
           <input id="endpositionx" type="text">
         </div>
         <div class="form-group">
-          <label for="endpositiony">Enter the Y coordinate for the end position</label>
+          <label for="endpositiony">Enter the Y coordinate for the end position:</label>
           <input id="endpositiony" type="text">
         </div>
-        <button type="submit" class="btn">Attack!</button>
+        <button type="submit" class="btn btn-danger">Attack!</button>
       </form>
 
       <div id="result">
-        <h3 class="answer">The Queen will <span id "not"></span>attack></h3>
+        <h4>The Queen can<span id = "not"></span> attack!</h4>
       </div>
     </div>
   </body>
