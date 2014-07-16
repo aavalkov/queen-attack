@@ -1,0 +1,1 @@
+This function allows a person to enter in two positions on a chess board and find out if the queen can attack from either position.
